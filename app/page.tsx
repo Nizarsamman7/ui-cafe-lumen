@@ -6,17 +6,13 @@ const kitchen = [["Butter croissant", "2.90"], ["Morning bun", "3.40"], ["Granol
 export default function HomePage() {
   return (
     <>
-      <header className="mast">
-        <span className="mark">Lumen</span>
-        <nav><Link href="/menu">Full menu</Link></nav>
-      </header>
       <section className="stage">
         <p>Counter service · weekdays from 7:30</p>
         <h1>Coffee with the lights still low.</h1>
       </section>
       <section className="intro">
         <p>A twenty-seat room. Beans roasted two streets away. Laptops welcome until noon, then the tables turn over for lunch.</p>
-        <p>Elandsstraat 41<br />Amsterdam<br />Mon–Fri 07:30–16:00<br />Sat 08:30–16:00</p>
+        <p>Elandsstraat 41<br />Amsterdam<br /><Link href="/hours">Mon–Fri 07:30–16:00</Link><br />Sat 08:30–16:00</p>
       </section>
       <section className="menu">
         <div>
